@@ -25,9 +25,10 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'dev.fluttercommunity.workmanager'
     compileSdkVersion 28
 
+    namespace 'dev.workmanager.kn'
+    
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
